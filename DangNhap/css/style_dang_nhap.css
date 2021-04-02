@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../image/5fcc80e2a77a4ce69467ea7f08e49fea.png);
+    height: 100vh;
+    background-size: cover;
+    padding: 100px 0;
+}
+#box{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    padding: 30px;
+    color: white;
+}
+.dangnhap{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+}
+.dangnhap input[type=text], input[type=password]{
+    width: 500px;
+    padding: 5px;
+    padding-left: 40px;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    background: none;
+    color: white;
+}
+input:focus{
+    outline-width: 0;
+}
+#name{
+    background-image: url(../image/m.png);
+    background-repeat: no-repeat;
+}
+#pass{
+    background-image: url(../image/l.png);
+    background-repeat: no-repeat;
+}
+input::placeholder{
+    color: white;
+}
+.dangnhap input[type=submit]{
+    width: 300px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-image: url(../image/1112566.jpg);
+    background-size: cover;
+    color: white;
+}
+.dangnhap a{
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8em;
+}
+.dangnhap a:hover{
+    color: darkblue;
+}
+#fogot{
+    text-align: right;
+}
+.dangnhap button{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+@media screen and (max-width: 800px){
+    #box{
+        width: 100%;
+    }
+    .dangnhap{
+        width: 100%;
+    }
+    .dangnhap input[type=text], input[type=password]{
+        width: 100%;
+    }
+}

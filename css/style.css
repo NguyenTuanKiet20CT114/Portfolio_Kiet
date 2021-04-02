@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container1{
+    font-size: 1.3em;
+    width: 100%;
+}
+/*Phần header*/
+#header{
+    width: 100%;
+    margin-top: 30px;
+}
+#head-top{
+    width: 90%;
+    font-size: 2em;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.head-top-left{
+    width: 50%;
+    float: left;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+.head-top-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+.head-top-right button{
+    padding: 10px 40px;
+    font-size: 0.7em;
+    margin: 0 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+.head-top-right button a{
+    text-decoration: none;
+    color: black;
+}
+.head-top-right button a:hover{
+    color: blue;
+}
+
+/*Phần menu*/
+#menu{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+.head-menu{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 1.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.head-menu-left{
+    width: 60%;
+    float: left;
+}
+.head-menu ul a{
+    float: left;
+    width: 25%;
+    text-decoration: none;
+    color: gray;
+    padding: 10px 0;
+    text-align: center;
+}
+ol,ul{
+    margin: 0 0;
+}
+.search{
+    width: 40%;
+    padding: 5px 30px;
+    float: right;
+    color: gray;
+}
+.search input[type=text]{
+    width: 22vw;
+    font-size: 1em;
+    padding: 5px 20px;
+    border: none;
+}
+.head-menu ul a:hover{
+    color: blue;
+}
+.icon{
+    display: none;
+}
+
+/*Phần center*/
+
+#center{
+    width: 100%;
+    overflow: hidden;
+}
+#center-head{
+    width: 100%;
+}
+#gioithieu{
+    width: 35%;
+    margin-left: 85px;
+    margin-top: 10px;
+    float: left;
+}
+.container{
+    width: 50%;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    z-index: 20;
+}
+#baner{
+    width: 80%;
+    margin: 10px 10%;
+}
+#phone{
+    width: 100%;
+    overflow: hidden;
+}
+.div-phone{
+    width: 20%;
+    border: 1px solid lightgray;
+    float: left;
+}
+.div-phone1{
+    width: 20%;
+    border: 1px solid lightgray;
+    float: left;
+    margin-left: 10%;
+}
+.div-phone2{
+    width: 20%;
+    border: 1px solid lightgray;
+    float: left;
+    margin-right: 10%;
+}
+.img{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-button{
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.img-button button{
+    padding: 0 5px;
+    background-color: yellow;
+    border: yellow;
+    font-size: 0.7em;
+}
+.noidung{
+    font-size: 1em;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed lightgray;
+}
+.noidung2{
+    font-size: 0.8em;
+    color: gray;
+    margin: 10px;
+}
+#next{
+    width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#next button{
+    width: 30px;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    background-color: white;
+}
+#next button:hover{
+    color: white;
+    background-color: lightgray;
+}
+#img{
+    width: 100%;
+}
+
+/*Phần Contact*/
+
+#contact{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#contact-center{
+    width: 1300px;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+.hair2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.4em;
+}
+.left-hair{
+    width: 50%;
+    float: left;
+}
+.left-hair a{
+    color: black;
+    padding-top: 10px;
+}
+.left-hair i{
+    margin-top: 10px;
+}
+.right-hair{
+    width: 50%;
+    float: right;
+}
+.text input[type=text]{
+    width: 47%;
+    float: left;
+    margin: 1%;
+}
+.text input[type=email]{
+    width: 47%;
+    float: right;
+    margin: 1% auto;
+}
+.text2 textarea{
+    width: 99%;
+    margin: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
+}
+input[type=text],input[type=email],textarea{
+    padding: 8px 20px;
+    font-size: 0.8em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.right-hair button{
+    float: right;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 21px;
+    margin-top: 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+.right-hair button:hover{
+    background-color: gray;
+    color: black;
+}
+input:focus{
+    outline-width: 0;
+}
+button:focus{
+    outline-width: 0;
+}
+@media screen and (max-width: 1100px){
+    #gioithieu{
+        width: 100%;
+        float: none;
+        margin: 0 10px;
+    }
+    .container{
+        width: 100%;
+        float: none;
+    }
+    #div-phone1, #div-phone2{
+        width: 40%;
+    }
+    #div-phone3, #div-phone4{
+        width: 40%;
+    }
+    #div-phone3{
+        margin-left: 10%;
+    }
+    #div-phone4{
+        margin-right: 10%;
+    }
+    #div-phone5, #div-phone6{
+        width: 40%;
+    }
+    #div-phone7, #div-phone8{
+        width: 40%;
+    }
+    #div-phone7{
+        margin-left: 10%;
+    }
+    #div-phone8{
+        margin-right: 10%;
+    }
+    .left-hair{
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    .right-hair{
+        width: 100%;
+    }
+    #contact-center{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .head-menu-left{
+        width: 100%;
+        overflow: hidden;
+    }
+    .search{
+        width: 100%;
+        display: none;
+    }
+    #menu{
+        position: relative;
+    }
+    .navigation .icon1{
+        display: none;
+    }
+    .navigation a.icon{
+        display: block;
+        float: right;
+        text-align: right;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .navigation.responsive{
+        position: relative;
+    }
+    .navigation.responsive .icon{
+        padding-right: 20px;
+        right: 0;
+        top: 0;
+    }
+    .navigation.responsive .icon1{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+    #div-phone1, #div-phone2{
+        width: 100%;
+    }
+    #div-phone3, #div-phone4{
+        width: 100%;
+    }
+    #div-phone3, #div-phone1{
+        margin-left: 0;
+    }
+    #div-phone4, #div-phone2{
+        margin-right: 0;
+    }
+    #div-phone5, #div-phone6{
+        width: 100%;
+    }
+    #div-phone7, #div-phone8{
+        width: 100%;
+    }
+    #div-phone7, #div-phone5{
+        margin-left: 0;
+    }
+    #div-phone8, #div-phone6{
+        margin-right: 0;
+    }
+    #phone{
+        padding: 0 10%;
+    }
+    .head-top-left{
+        width: 100%;
+        text-align: center;
+    }
+    .head-top-right{
+        width: 100%;
+        text-align: center;
+    }
+    #gioithieu{
+        width: 94%;
+        margin: 0 3%;
+    }
+}
+@media screen and (max-width: 600px){
+    .head-top-right{
+        display: none;
+    }
+}
